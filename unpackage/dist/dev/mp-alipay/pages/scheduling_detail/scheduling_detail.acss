@@ -1,0 +1,44 @@
+
+.listBlock {
+  background: #fff;
+  box-sizing: border-box;
+  padding: 0px 20px;
+  box-shadow: 0px 3px 6px 0px rgba(222, 222, 222, 0.3);
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin: 10px 16px;
+}
+.listBlock>view:first-child {
+  color: #333;
+  font-size: 15px;
+  line-height: 60px;
+}
+.schedulingBlock_name {
+  color: #333;
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 8px;
+  margin-bottom: 5px;
+}
+.schedulingBlock_time {
+  color: #888;
+  font-size: 12px;
+  margin-bottom: 8px;
+}
+.schedulingBlock_color {
+  height: 8px;
+  width: 8px;
+  margin-top: 23px;
+  border:1px solid #eee;
+}
+.deptName {
+  margin-top: 16px;
+  margin-left: 6px;
+  height: 16px;
+  background: #93B6FA;
+  padding: 0px 5px;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 10px;
+}
+

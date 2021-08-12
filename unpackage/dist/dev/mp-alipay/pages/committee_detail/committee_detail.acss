@@ -1,0 +1,12 @@
+
+.section2>view {
+  font-size: 15px;
+  color: #888;
+  margin-top: 24px;
+  margin-bottom: 10px;
+}
+.section2>text {
+  font-size: 15px;
+  color: #333;
+}
+

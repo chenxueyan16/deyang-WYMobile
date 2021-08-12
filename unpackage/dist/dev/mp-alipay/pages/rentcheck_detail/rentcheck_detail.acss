@@ -1,0 +1,29 @@
+
+.imgBlock {
+  background: #fff;
+  border-top: 10px solid #F5F5F5;
+  box-sizing: border-box;
+}
+.imgBlock>view {
+  font-size: 16px;
+  color: #41424F;
+  padding: 14px;
+}
+.rentBlock_title {
+  color: #41424F;
+  font-size: 20px;
+  margin: 0 14px 8px 14px;
+}
+.rentBlock_money {
+  margin: 0 14px 8px 14px;
+}
+.rentBlock_money>view:first-child {
+  color: #295BFD;
+  font-size: 20px;
+}
+.rentBlock_money>view:last-child {
+  color: #888;
+  font-size: 12px;
+  margin-top: 8px;
+}
+

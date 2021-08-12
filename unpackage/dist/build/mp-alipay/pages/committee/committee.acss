@@ -1,0 +1,1 @@
+.colorBlock{height:250px;background:-webkit-linear-gradient(0deg,#5c95fc,#295bfd);background:-webkit-linear-gradient(bottom,#5c95fc,#295bfd);background:linear-gradient(0deg,#5c95fc,#295bfd)}.bgBlockTop{margin:10px 20px 20px 20px}.bgBlockTop_text{color:#fff;font-size:12px;font-weight:400;margin-bottom:6px}.bold_font{font-size:14px;color:#fff;margin-top:6px;font-weight:500}

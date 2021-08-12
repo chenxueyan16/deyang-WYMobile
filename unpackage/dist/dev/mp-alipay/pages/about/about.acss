@@ -1,0 +1,10 @@
+
+.loginOut{
+	position:fixed;
+	bottom:40px;
+	color:#FF4F4D;
+	font-size:14px;
+	width:100%;
+	text-align:center;
+}
+

@@ -1,0 +1,11 @@
+// 页面大小
+uni-page-wrapper{
+	uni-page-body{
+		height:100%;
+	}
+}
+.u-drawer .u-drawer-visible{
+	.u-drawer-content-visible{
+		height: 50% !important;
+	}
+}

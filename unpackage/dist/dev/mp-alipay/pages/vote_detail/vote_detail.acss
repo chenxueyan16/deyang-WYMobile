@@ -1,0 +1,81 @@
+
+.font_name {
+	color: #888;
+	font-size: 14px;
+	margin-top: 5px;
+}
+.font_bold{
+	font-size:16px;
+	color:#333;
+	font-weight:600;
+}
+.voteNumberBlock {
+	padding: 10px 20px;
+	background: #f5f5f5;
+}
+.voteNumberBlock_item {
+	float: left;
+	height: 272px;
+	width: 49%;
+	background: #fff;
+	padding: 5px;
+	box-sizing: border-box;
+}
+.voteNumberBlock_item:nth-child(2n-1) {
+	margin-right: 2%;
+}
+.voteNumberBlock_item-number {
+	width: 45px;
+	height: 25px;
+	background: -webkit-linear-gradient(left, #3558FF, #B65CFF);
+	/* Safari 5.1 - 6.0 */
+	/* Opera 11.1 - 12.0 */
+	/* Firefox 3.6 - 15 */
+	background: linear-gradient(left, #3558FF, #B65CFF);	
+	/* 标准的语法 */
+	border-radius: 0px 100px 100px 0px;
+	color: #fff;
+	font-size: 12px;
+	padding-left: 10px;
+	box-sizing: border-box;
+	line-height: 25px;
+	position: absolute;
+	z-index:3;
+	-webkit-transform: translate(-5px, 5px);
+	        transform: translate(-5px, 5px);
+}
+.voteListBlock {
+	padding: 15px 20px;
+	height: 90px;
+	box-sizing: border-box;
+}
+.voteListBlock-number {
+	margin-top: 20px;
+	margin-left: 8px;
+	margin-right: 8px;
+	height: 24px;
+	width: 24px;
+	background: #E5E5EA;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 24px;
+}
+.pai{
+	margin-top:10px;
+	width:40px;
+	height: 40px;
+}
+.voteDistributeBlock {
+	padding: 20px;
+}
+.voteDistributeBlock>text {
+	font-size: 15px;
+	color: #888;
+	margin-bottom: 8px;
+}
+.voteDistributeBlock>view {
+	font-size: 15px;
+	color: #333;
+	margin-bottom: 20px;
+}
+

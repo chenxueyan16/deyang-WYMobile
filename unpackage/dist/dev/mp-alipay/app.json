@@ -1,0 +1,72 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/index/index",
+    "pages/home/home",
+    "pages/mine/mine",
+    "pages/myself/myself",
+    "pages/about/about",
+    "pages/vote/vote",
+    "pages/phone/phone",
+    "pages/infocheck/infocheck",
+    "pages/infocheck_detail/infocheck_detail",
+    "pages/prevention_detail/prevention_detail",
+    "pages/prevention/prevention",
+    "pages/committee/committee",
+    "pages/committee_detail/committee_detail",
+    "pages/notification/notification",
+    "pages/notification_list/notification_list",
+    "pages/notification_detail/notification_detail",
+    "pages/complaint/complaint",
+    "pages/complaint_detail/complaint_detail",
+    "pages/vote_detail/vote_detail",
+    "pages/vote_info/vote_info",
+    "pages/infoselect/infoselect",
+    "pages/rentcheck/rentcheck",
+    "pages/rentcheck_detail/rentcheck_detail",
+    "pages/leader/leader",
+    "pages/community/community",
+    "pages/community_detail/community_detail",
+    "pages/employee/employee",
+    "pages/employee_detail/employee_detail",
+    "pages/employee_edit/employee_edit",
+    "pages/service/service",
+    "pages/service_detail/service_detail",
+    "pages/scheduling/scheduling",
+    "pages/scheduling_detail/scheduling_detail",
+    "pages/equipment/equipment",
+    "pages/warn/warn",
+    "pages/warn_detail/warn_detail",
+    "pages/vehicle/vehicle",
+    "pages/vehicle_list/vehicle_list",
+    "pages/vehicle_detail/vehicle_detail",
+    "pages/parking/parking",
+    "pages/parking_list/parking_list",
+    "pages/parking_detail/parking_detail"
+  ],
+  "subPackages": [],
+  "window": {
+    "titleBarColor": "#ffffff",
+    "backgroundColor": "#F5F5F5"
+  },
+  "tabBar": {
+    "textColor": "#999999",
+    "selectedColor": "#295BFD",
+    "backgroundColor": "#fff",
+    "items": [
+      {
+        "pagePath": "pages/home/home",
+        "name": "首页",
+        "icon": "/static/icon_home_normal.png",
+        "activeIcon": "/static/icon_home_selected.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "name": "我的",
+        "icon": "/static/icon_mine_normal.png",
+        "activeIcon": "static/icon_mine_selected.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

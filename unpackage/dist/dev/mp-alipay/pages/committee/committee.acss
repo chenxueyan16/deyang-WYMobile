@@ -1,0 +1,29 @@
+
+.colorBlock {
+  height: 250px;
+  background: -webkit-linear-gradient(to top, #5C95FC, #295BFD);
+  /* Safari 5.1 - 6.0 */
+  /* Opera 11.1 - 12.0 */
+  /* Firefox 3.6 - 15 */
+  background: -webkit-linear-gradient(bottom, #5C95FC, #295BFD);
+  background: linear-gradient(to top, #5C95FC, #295BFD);
+  /* 标准的语法 */
+}
+.bgBlockTop {
+  /* transform: translateY(14px); */
+  margin: 10px 20px 20px 20px;
+  /*top:-200px;*/
+}
+.bgBlockTop_text {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom:6px;
+}
+.bold_font {
+  font-size: 14px;
+  color: #fff;
+  margin-top: 6px;
+  font-weight: 500;
+}
+

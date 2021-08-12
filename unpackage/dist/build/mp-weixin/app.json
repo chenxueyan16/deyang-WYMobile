@@ -1,0 +1,79 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/index/index",
+    "pages/home/home",
+    "pages/mine/mine",
+    "pages/myself/myself",
+    "pages/about/about",
+    "pages/vote/vote",
+    "pages/phone/phone",
+    "pages/infocheck/infocheck",
+    "pages/infocheck_detail/infocheck_detail",
+    "pages/prevention_detail/prevention_detail",
+    "pages/prevention/prevention",
+    "pages/committee/committee",
+    "pages/committee_detail/committee_detail",
+    "pages/notification/notification",
+    "pages/notification_list/notification_list",
+    "pages/notification_detail/notification_detail",
+    "pages/complaint/complaint",
+    "pages/complaint_detail/complaint_detail",
+    "pages/vote_detail/vote_detail",
+    "pages/vote_info/vote_info",
+    "pages/infoselect/infoselect",
+    "pages/rentcheck/rentcheck",
+    "pages/rentcheck_detail/rentcheck_detail",
+    "pages/leader/leader",
+    "pages/community/community",
+    "pages/community_detail/community_detail",
+    "pages/employee/employee",
+    "pages/employee_detail/employee_detail",
+    "pages/employee_edit/employee_edit",
+    "pages/service/service",
+    "pages/service_detail/service_detail",
+    "pages/scheduling/scheduling",
+    "pages/scheduling_detail/scheduling_detail",
+    "pages/equipment/equipment",
+    "pages/warn/warn",
+    "pages/warn_detail/warn_detail",
+    "pages/vehicle/vehicle",
+    "pages/vehicle_list/vehicle_list",
+    "pages/vehicle_detail/vehicle_detail",
+    "pages/parking/parking",
+    "pages/parking_list/parking_list",
+    "pages/parking_detail/parking_detail"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationStyle": "custom",
+    "backgroundColor": "#F5F5F5",
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#295BFD",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "/static/icon_home_normal.png",
+        "selectedIconPath": "/static/icon_home_selected.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "/static/icon_mine_normal.png",
+        "selectedIconPath": "static/icon_mine_selected.png"
+      }
+    ]
+  },
+  "permission": {},
+  "uniStatistics": {
+    "enable": true
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}
